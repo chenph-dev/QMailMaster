@@ -102,8 +102,8 @@ Loader {
                         primarySource: "qrc:/IconLibrary/material-symbols/chevron_right.svg"
                         actionAlignment: Qt.AlignRight
 
-                        onClicked: stackView.push("demo/ComponentsOverview.qml")
-                        onPrimaryClicked: stackView.push("demo/ComponentsOverview.qml")
+                        onClicked: stackView.push("../demo/ComponentsOverview.qml")
+                        onPrimaryClicked: stackView.push("../demo/ComponentsOverview.qml")
 
                         IconSvg {
                             anchors.horizontalCenter: parent.horizontalCenter

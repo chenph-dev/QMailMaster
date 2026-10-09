@@ -7,7 +7,7 @@ ListModel {
         text: "Predefined colors."
         icon: "qrc:/IconLibrary/material-icons/duotone/style.svg"
         gradient: "sunset"
-        page: "demo/PageColors.qml"
+        page: "../demo/PageColors.qml"
     }
 
     ListElement {
@@ -15,7 +15,7 @@ ListModel {
         text: "Gradient presets and decorated surfaces."
         icon: "qrc:/IconLibrary/material-symbols/media/gradient.svg"
         gradient: "aurora"
-        page: "demo/PageGradients.qml"
+        page: "../demo/PageGradients.qml"
     }
 
     ListElement {
@@ -23,7 +23,7 @@ ListModel {
         text: "So many buttons..."
         icon: "qrc:/IconLibrary/material-icons/duotone/touch_app.svg"
         gradient: "ocean"
-        page: "demo/PageButtons.qml"
+        page: "../demo/PageButtons.qml"
     }
 
     ListElement {
@@ -31,7 +31,7 @@ ListModel {
         text: "Single choice selectors."
         icon: "qrc:/IconLibrary/material-symbols/link.svg"
         gradient: "forest"
-        page: "demo/PageSelectors.qml"
+        page: "../demo/PageSelectors.qml"
     }
 
     ListElement {
@@ -39,7 +39,7 @@ ListModel {
         text: "Checkboxes, radiobuttons and others."
         icon: "qrc:/IconLibrary/material-symbols/flaky.svg"
         gradient: "cosmic"
-        page: "demo/PageTickers.qml"
+        page: "../demo/PageTickers.qml"
     }
 
     ListElement {
@@ -47,7 +47,7 @@ ListModel {
         text: "Usually used to indicate."
         icon: "qrc:/IconLibrary/material-icons/duotone/speed.svg"
         gradient: "ember"
-        page: "demo/PageIndicators.qml"
+        page: "../demo/PageIndicators.qml"
     }
 
     ListElement {
@@ -55,7 +55,7 @@ ListModel {
         text: "We like sliders. Sliders are cools."
         icon: "qrc:/IconLibrary/material-symbols/sort.svg"
         gradient: "violet"
-        page: "demo/PageSliders.qml"
+        page: "../demo/PageSliders.qml"
     }
 
     ListElement {
@@ -63,7 +63,7 @@ ListModel {
         text: "Various text inputs."
         icon: "qrc:/IconLibrary/material-icons/duotone/edit.svg"
         gradient: "emerald"
-        page: "demo/PageTextFields.qml"
+        page: "../demo/PageTextFields.qml"
     }
 
     ListElement {
@@ -71,7 +71,7 @@ ListModel {
         text: "Frames, boxes and panes."
         icon: "qrc:/IconLibrary/material-symbols/layers.svg"
         gradient: "grape"
-        page: "demo/PageLayouts.qml"
+        page: "../demo/PageLayouts.qml"
     }
 
     ListElement {
@@ -79,7 +79,7 @@ ListModel {
         text: "Cards and list elements."
         icon: "qrc:/IconLibrary/material-symbols/note_stack.svg"
         gradient: "peach"
-        page: "demo/PageCards.qml"
+        page: "../demo/PageCards.qml"
     }
 
     ListElement {
@@ -87,6 +87,6 @@ ListModel {
         text: "Various dialog popups and datetime pickers."
         icon: "qrc:/IconLibrary/material-icons/duotone/date_range.svg"
         gradient: "lagoon"
-        page: "demo/PageDialogs.qml"
+        page: "../demo/PageDialogs.qml"
     }
 }

@@ -9,19 +9,19 @@
 	<string>APPL</string>
 
 	<key>CFBundleName</key>
-	<string>QmlAppTemplate</string>
+	<string>QMailMaster</string>
 
 	<key>CFBundleDisplayName</key>
-	<string>QmlAppTemplate</string>
+	<string>QMailMaster</string>
 
 	<key>CFBundleExecutable</key>
-	<string>QmlAppTemplate</string>
+	<string>QMailMaster</string>
 
 	<key>CFBundleIdentifier</key>
-	<string>io.emeric.qmlapptemplate</string>
+	<string>io.qmailmaster.app</string>
 
 	<key>CFBundleIconFile</key>
-	<string>QmlAppTemplate.icns</string>
+	<string>QMailMaster.icns</string>
 
 	<key>CFBundleVersion</key>
 	<string>000901</string>
@@ -33,13 +33,13 @@
 	<string>12.0</string>
 
 	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.utilities</string>
+	<string>public.app-category.productivity</string>
 
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright Emeric Grange 2026</string>
+	<string>Copyright QMailMaster Team 2026</string>
 
 	<key>NSHighResolutionCapable</key>
 	<true/>

@@ -52,10 +52,10 @@ int main(int argc, char *argv[])
 #endif
 
     // Application name
-    app.setApplicationName("QmlAppTemplate");
-    app.setApplicationDisplayName("QmlAppTemplate");
-    app.setOrganizationName("emeric");
-    app.setOrganizationDomain("emeric");
+    app.setApplicationName("QMailMaster");
+    app.setApplicationDisplayName("QMailMaster");
+    app.setOrganizationName("qmailmaster");
+    app.setOrganizationDomain("qmailmaster");
     app.setWindowIcon(QIcon(":/assets/logos/logo.svg"));
 
     // Init app components
@@ -91,9 +91,9 @@ int main(int argc, char *argv[])
 
     // Load the main view
 #if defined(Q_OS_ANDROID) || defined(Q_OS_IOS) || defined(FORCE_MOBILE_UI)
-    engine.loadFromModule("QmlAppTemplate", "MobileApplication");
+    engine.loadFromModule("QMailMaster", "MobileApplication");
 #else
-    engine.loadFromModule("QmlAppTemplate", "DesktopApplication");
+    engine.loadFromModule("QMailMaster", "DesktopApplication");
 #endif
 
     if (engine.rootObjects().isEmpty())

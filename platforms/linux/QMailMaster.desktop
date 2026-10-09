@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=QMailMaster
+Comment=QMailMaster is a cross-platform email client
+Exec=QMailMaster
+Icon=QMailMaster
+Categories=Office;Email;Qt;

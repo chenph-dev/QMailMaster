@@ -5,10 +5,10 @@ Unicode True
 !include "FileFunc.nsh"
 !include "LogicLib.nsh"
 
-!define APPNAME                      "QmlAppTemplate"
-!define EXECNAME                     "QmlAppTemplate"
-!define COMPANYNAME                  "Emeric Grange"
-!define DESCRIPTION                  "A Qt6 / QML application template"
+!define APPNAME                      "QMailMaster"
+!define EXECNAME                     "QMailMaster"
+!define COMPANYNAME                  "QMailMaster Team"
+!define DESCRIPTION                  "A cross-platform email client"
 !define VERSIONMAJOR                 0
 !define VERSIONMINOR                 9
 !define VERSIONBUILD                 0
@@ -18,7 +18,7 @@ Unicode True
 !define MUI_FINISHPAGE_RUN_TEXT      "Run ${APPNAME}"
 !define MUI_FINISHPAGE_RUN_FUNCTION  "RunApplication"
 !define MUI_FINISHPAGE_LINK          "Visit project website"
-!define MUI_FINISHPAGE_LINK_LOCATION "https://emeric.io/${APPNAME}/"
+!define MUI_FINISHPAGE_LINK_LOCATION "https://github.com/chenph/QMailMaster"
 !define MUI_WELCOMEPAGE_TITLE        "Welcome to the ${APPNAME} installer!"
 !define MUI_ICON                     "${APPNAME}.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "nsis-banner.bmp"

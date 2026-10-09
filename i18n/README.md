@@ -8,7 +8,7 @@ You can work on translations using one of two ways:
 ##### Step 1: Add the language to the project (if it's a new language)
 
 Edit the Qt project file (_CMakeLists.txt_) and add a new language file entry to the I18N_TRANSLATED_LANGUAGES section.  
-You'll need to use an [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two letter code (ex: _i18n/QmlAppTemplate_fr.ts_).  
+You'll need to use an [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) two letter code (ex: _i18n/QMailMaster_fr.ts_).  
 
 > qt_standard_project_setup(I18N_TRANSLATED_LANGUAGES de fr xx)
 

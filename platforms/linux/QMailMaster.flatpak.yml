@@ -1,12 +1,12 @@
-app-id: io.emeric.qmlapptemplate
+app-id: io.qmailmaster.app
 runtime: org.freedesktop.Platform
 runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 
-command: QmlAppTemplate
-rename-desktop-file: QmlAppTemplate.desktop
-rename-appdata-file: QmlAppTemplate.appdata.xml
-rename-icon: QmlAppTemplate
+command: QMailMaster
+rename-desktop-file: QMailMaster.desktop
+rename-appdata-file: QMailMaster.appdata.xml
+rename-icon: QMailMaster
 
 finish-args:
   # Our UI is GPU accelerated
@@ -63,9 +63,9 @@ modules:
       - /plugins/qmltooling
       - /sbom
 
-  - name: QmlAppTemplate
+  - name: QMailMaster
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/emericg/QmlAppTemplate/archive/refs/tags/v0.9.tar.gz
+        url: https://github.com/chenph/QMailMaster/archive/refs/tags/v0.9.tar.gz
         sha256: 

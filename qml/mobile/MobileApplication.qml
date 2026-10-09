@@ -223,7 +223,7 @@ Window {
         states: [
             State {
                 name: "MobileComponents"
-                PropertyChanges { target: appHeader; headerTitle: "QmlAppTemplate"; }
+                PropertyChanges { target: appHeader; headerTitle: "QMailMaster"; }
                 PropertyChanges { target: screenMobileComponents; visible: true; enabled: true; }
                 PropertyChanges { target: screenPlayground; visible: false; enabled: false; }
                 PropertyChanges { target: screenFontInfos; visible: false; enabled: false; }

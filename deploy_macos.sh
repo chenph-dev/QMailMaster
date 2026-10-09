@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export APP_NAME="QmlAppTemplate"
+export APP_NAME="QMailMaster"
 export APP_VERSION=$(sed -n 's/^project(.*VERSION \([0-9.]*\).*/\1/p' CMakeLists.txt)
 export GIT_VERSION=$(git rev-parse --short HEAD)
 

@@ -84,7 +84,7 @@ void MenubarManager::setupMenubar(QQuickWindow *view)
 
     // Merged into macOS app menu
 
-    m_actionAbout = new QAction(tr("About QmlAppTemplate"));
+    m_actionAbout = new QAction(tr("About QMailMaster"));
     m_actionAbout->setMenuRole(QAction::AboutRole);
     connect(m_actionAbout, &QAction::triggered, this, &MenubarManager::about);
 
@@ -303,17 +303,17 @@ void MenubarManager::windowClose()
 
 void MenubarManager::website()
 {
-    QDesktopServices::openUrl(QUrl("https://emeric.io/"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster"));
 }
 
 void MenubarManager::issuetracker()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/emericg/QmlAppTemplate/issues"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster/issues"));
 }
 
 void MenubarManager::releasenotes()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/emericg/QmlAppTemplate/releases"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster/releases"));
 }
 
 /* ************************************************************************** */

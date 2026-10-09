@@ -52,7 +52,7 @@ DrawerThemed {
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.verticalCenterOffset: 0
 
-                    text: "QmlAppTemplate"
+                    text: "QMailMaster"
                     color: Theme.colorText
                     font.bold: true
                     font.pixelSize: Theme.fontSizeTitle

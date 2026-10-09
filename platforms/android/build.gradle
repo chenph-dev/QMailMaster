@@ -91,7 +91,7 @@ android {
         targetSdkVersion = qtTargetSdkVersion
         ndk.abiFilters = qtTargetAbiList.split(",")
 
-        namespace "io.emeric.qmlapptemplate"
+        namespace "io.qmailmaster.app"
         versionName "0.9"
         versionCode timestampInt
         //manifestPlaceholders = [versionName: versionName, versionCode: versionCode]

@@ -63,25 +63,25 @@ qt_add_qml_module(${PROJECT_NAME}
     URI ${PROJECT_NAME}
     NO_PLUGIN
     QML_FILES
-        qml/MobileApplication.qml
-        qml/MobileHeader.qml
-        qml/MobileDrawer.qml
-        qml/MobilePermissions.qml
-        qml/MobileMenu.qml
-        qml/MobileExit.qml
+        qml/desktop/DesktopApplication.qml
+        qml/desktop/DesktopHeader.qml
+        qml/desktop/DesktopSidebar.qml
 
-        qml/DesktopApplication.qml
-        qml/DesktopHeader.qml
-        qml/DesktopSidebar.qml
+        qml/mobile/MobileApplication.qml
+        qml/mobile/MobileDrawer.qml
+        qml/mobile/MobilePermissions.qml
+        qml/mobile/MobileMenu.qml
+        qml/mobile/MobileExit.qml
+        qml/mobile/MobileHeader.qml
 
-        qml/ScreenMainView.qml
-        qml/ScreenMobileComponents.qml
-        qml/ScreenDesktopComponents.qml
-        qml/ScreenPlayground.qml
-        qml/ScreenFontInfos.qml
-        qml/ScreenHostInfos.qml
-        qml/ScreenSettings.qml
-        qml/ScreenAbout.qml
+        qml/screens/ScreenMainView.qml
+        qml/screens/ScreenMobileComponents.qml
+        qml/screens/ScreenDesktopComponents.qml
+        qml/screens/ScreenPlayground.qml
+        qml/screens/ScreenFontInfos.qml
+        qml/screens/ScreenHostInfos.qml
+        qml/screens/ScreenSettings.qml
+        qml/screens/ScreenAbout.qml
 
         qml/demo/ComponentsOverview.qml
         qml/demo/PlaygroundOne.qml

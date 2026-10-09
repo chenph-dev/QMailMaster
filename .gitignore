@@ -22,3 +22,4 @@ asset_catalog_compiler.Info.plist
 # Others
 stash/*
 .DS_Store
+/.idea/

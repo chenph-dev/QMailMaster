@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Next KMail
+Comment=Next KMail is a cross-platform email client
+Exec=next-kmail
+Icon=next-kmail
+Categories=Office;Email;Qt;

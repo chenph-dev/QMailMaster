@@ -52,7 +52,7 @@ DrawerThemed {
                     anchors.verticalCenter: parent.verticalCenter
                     anchors.verticalCenterOffset: 0
 
-                    text: "QMailMaster"
+                    text: "Next KMail"
                     color: Theme.colorText
                     font.bold: true
                     font.pixelSize: Theme.fontSizeTitle

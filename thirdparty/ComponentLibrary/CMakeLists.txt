@@ -354,6 +354,10 @@ qt_add_translations(ComponentLibrary
     SOURCE_TARGETS ComponentLibrary # pins lupdate to this module only
     TS_FILE_BASE ComponentLibrary
     TS_FILE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/i18n/
+    TS_FILES
+        ${CMAKE_CURRENT_SOURCE_DIR}/i18n/ComponentLibrary_en.ts
+        ${CMAKE_CURRENT_SOURCE_DIR}/i18n/ComponentLibrary_fr.ts
+        ${CMAKE_CURRENT_SOURCE_DIR}/i18n/ComponentLibrary_zh.ts
     RESOURCE_PREFIX "/i18n"
     #LUPDATE_OPTIONS -no-obsolete
     LUPDATE_TARGET ComponentLibrary_lupdate

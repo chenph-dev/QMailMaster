@@ -9,19 +9,19 @@
 	<string>APPL</string>
 
 	<key>CFBundleName</key>
-	<string>QMailMaster</string>
+	<string>Next KMail</string>
 
 	<key>CFBundleDisplayName</key>
-	<string>QMailMaster</string>
+	<string>Next KMail</string>
 
 	<key>CFBundleExecutable</key>
-	<string>QMailMaster</string>
+	<string>next-kmail</string>
 
 	<key>CFBundleIdentifier</key>
-	<string>io.qmailmaster.app</string>
+	<string>io.nextkmail.app</string>
 
 	<key>CFBundleIconFile</key>
-	<string>QMailMaster.icns</string>
+	<string>next-kmail.icns</string>
 
 	<key>CFBundleVersion</key>
 	<string>000901</string>
@@ -39,7 +39,7 @@
 	<string>NSApplication</string>
 
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright QMailMaster Team 2026</string>
+	<string>Copyright Next KMail Team 2026</string>
 
 	<key>NSHighResolutionCapable</key>
 	<true/>

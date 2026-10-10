@@ -1,12 +1,12 @@
-app-id: io.qmailmaster.app
+app-id: io.nextkmail.app
 runtime: org.freedesktop.Platform
 runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 
-command: QMailMaster
-rename-desktop-file: QMailMaster.desktop
-rename-appdata-file: QMailMaster.appdata.xml
-rename-icon: QMailMaster
+command: next-kmail
+rename-desktop-file: next-kmail.desktop
+rename-appdata-file: next-kmail.appdata.xml
+rename-icon: next-kmail
 
 finish-args:
   # Our UI is GPU accelerated
@@ -63,9 +63,9 @@ modules:
       - /plugins/qmltooling
       - /sbom
 
-  - name: QMailMaster
+  - name: next-kmail
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/chenph/QMailMaster/archive/refs/tags/v0.9.tar.gz
+        url: https://github.com/chenph-dev/next-kmail/archive/refs/tags/v0.9.tar.gz
         sha256: 

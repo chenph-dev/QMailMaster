@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2026 QMailMaster contributors -->
+<!-- Copyright 2026 Next KMail contributors -->
 
 <component type="desktop-application">
-  <id>io.qmailmaster.app</id>
-  <name>QMailMaster</name>
-  <launchable type="desktop-id">QMailMaster.desktop</launchable>
+  <id>io.nextkmail.app</id>
+  <name>Next KMail</name>
+  <launchable type="desktop-id">next-kmail.desktop</launchable>
 
   <summary>Cross-platform email client</summary>
   <description>
-    <p>QMailMaster is a cross-platform email client built with Qt6 / QML, supporting NetEase, Google, and QQ mail.</p>
+    <p>Next KMail is a cross-platform email client built with Qt6 / QML, supporting NetEase, Google, and QQ mail.</p>
   </description>
 
   <project_license>MIT</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <content_rating type="oars-1.1" />
 
-  <developer id="io.qmailmaster">
-    <name>QMailMaster Team</name>
+  <developer id="io.nextkmail">
+    <name>Next KMail Team</name>
   </developer>
 
-  <url type="homepage">https://github.com/chenph/QMailMaster</url>
-  <url type="vcs-browser">https://github.com/chenph/QMailMaster</url>
-  <url type="bugtracker">https://github.com/chenph/QMailMaster/issues</url>
+  <url type="homepage">https://github.com/chenph-dev/next-kmail</url>
+  <url type="vcs-browser">https://github.com/chenph-dev/next-kmail</url>
+  <url type="bugtracker">https://github.com/chenph-dev/next-kmail/issues</url>
 
   <releases>
     <release version="0.9" date="2026-10-09" />

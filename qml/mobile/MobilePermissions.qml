@@ -332,7 +332,7 @@ Item {
                     source: "qrc:/IconLibrary/material-icons/duotone/tune.svg"
                     sourceSize: 20
 
-                    onClicked: UtilsApp.openAndroidAppInfo("io.qmailmaster.app")
+                    onClicked: UtilsApp.openAndroidAppInfo("io.nextkmail.app")
                 }
             }
 

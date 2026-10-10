@@ -77,8 +77,8 @@ Loader {
 
                 link_web: "https://emeric.io/"
                 link_donate: "https://www.paypal.com/paypalme/EmericGrange"
-                link_support: "https://github.com/chenph/QMailMaster/issues"
-                link_repository: "https://github.com/chenph/QMailMaster"
+                link_support: "https://github.com/chenph-dev/next-kmail/issues"
+                link_repository: "https://github.com/chenph-dev/next-kmail"
                 src_repository: "qrc:/assets/logos/github.svg"
             }
 
@@ -117,7 +117,7 @@ Loader {
                         anchors.verticalCenterOffset: -2
 
                         Text {
-                            text: "QMailMaster"
+                            text: "Next KMail"
                             color: Theme.colorText
                             font.pixelSize: Theme.fontSizeTitle
                         }
@@ -152,7 +152,7 @@ Loader {
                         text: qsTr("SUPPORT")
                         source: "qrc:/IconLibrary/material-symbols/support.svg"
                         sourceSize: 22
-                        onClicked: Qt.openUrlExternally("https://github.com/chenph/QMailMaster/issues")
+                        onClicked: Qt.openUrlExternally("https://github.com/chenph-dev/next-kmail/issues")
                     }
 
                     ButtonSolid {
@@ -162,7 +162,7 @@ Loader {
                         text: qsTr("GitHub")
                         source: "qrc:/assets/logos/github.svg"
                         sourceSize: 22
-                        onClicked: Qt.openUrlExternally("https://github.com/chenph/QMailMaster")
+                        onClicked: Qt.openUrlExternally("https://github.com/chenph-dev/next-kmail")
                     }
                 }
 
@@ -206,7 +206,7 @@ Loader {
                     text: qsTr("SUPPORT")
                     source: "qrc:/IconLibrary/material-symbols/support.svg"
                     sourceSize: 22
-                    onClicked: Qt.openUrlExternally("https://github.com/chenph/QMailMaster/issues")
+                    onClicked: Qt.openUrlExternally("https://github.com/chenph-dev/next-kmail/issues")
                 }
             }
 */
@@ -243,7 +243,7 @@ Loader {
                 text: qsTr("Rate the application")
                 source: "qrc:/IconLibrary/material-symbols/stars-fill.svg"
                 indicatorSource: "qrc:/IconLibrary/material-icons/duotone/launch.svg"
-                onClicked: Qt.openUrlExternally("https://github.com/chenph/QMailMaster")
+                onClicked: Qt.openUrlExternally("https://github.com/chenph-dev/next-kmail")
             }
 
             ListSeparator { }

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-project(QMailMaster VERSION 0.9 LANGUAGES CXX)
+project(next-kmail VERSION 0.9 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -119,6 +119,10 @@ qt_add_translations(${PROJECT_NAME}
     SOURCE_TARGETS ${PROJECT_NAME}
     TS_FILE_BASE ${PROJECT_NAME}
     TS_FILE_DIR ${PROJECT_SOURCE_DIR}/i18n/
+    TS_FILES
+        ${PROJECT_SOURCE_DIR}/i18n/${PROJECT_NAME}_en.ts
+        ${PROJECT_SOURCE_DIR}/i18n/${PROJECT_NAME}_fr.ts
+        ${PROJECT_SOURCE_DIR}/i18n/${PROJECT_NAME}_zh.ts
     RESOURCE_PREFIX "/i18n"
     #LUPDATE_OPTIONS -no-obsolete
 )
@@ -217,7 +221,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Darwin")
         MACOSX_BUNDLE ON
         MACOSX_BUNDLE_INFO_PLIST "${PROJECT_SOURCE_DIR}/platforms/macos/Info.plist"
         # New Xcode attributes (???)
-        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER           "io.qmailmaster.app"
+        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER           "io.nextkmail.app"
         XCODE_ATTRIBUTE_PRODUCT_NAME                        ${PROJECT_NAME}
         XCODE_ATTRIBUTE_CURRENT_PROJECT_VERSION             ${PROJECT_VERSION}
         XCODE_ATTRIBUTE_MARKETING_VERSION                   ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -272,7 +276,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "iOS")
         # Qt
         #QT_IOS_LAUNCH_SCREEN "${PROJECT_SOURCE_DIR}/platforms/ios/LaunchScreen.storyboard"
         # New Xcode attributes (???)
-        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER           "io.qmailmaster.app"
+        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER           "io.nextkmail.app"
         XCODE_ATTRIBUTE_PRODUCT_NAME                        ${PROJECT_NAME}
         XCODE_ATTRIBUTE_CURRENT_PROJECT_VERSION             ${PROJECT_VERSION}
         XCODE_ATTRIBUTE_MARKETING_VERSION                   ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}

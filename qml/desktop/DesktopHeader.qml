@@ -13,7 +13,7 @@ Rectangle {
     clip: false
     z: 10
 
-    property string headerTitle: "QMailMaster"
+    property string headerTitle: "Next KMail"
     property int headerHeight: 64
     property int headerPosition: 64
 

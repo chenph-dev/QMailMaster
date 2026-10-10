@@ -84,7 +84,7 @@ void MenubarManager::setupMenubar(QQuickWindow *view)
 
     // Merged into macOS app menu
 
-    m_actionAbout = new QAction(tr("About QMailMaster"));
+    m_actionAbout = new QAction(tr("About Next KMail"));
     m_actionAbout->setMenuRole(QAction::AboutRole);
     connect(m_actionAbout, &QAction::triggered, this, &MenubarManager::about);
 
@@ -303,17 +303,17 @@ void MenubarManager::windowClose()
 
 void MenubarManager::website()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph-dev/next-kmail"));
 }
 
 void MenubarManager::issuetracker()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster/issues"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph-dev/next-kmail/issues"));
 }
 
 void MenubarManager::releasenotes()
 {
-    QDesktopServices::openUrl(QUrl("https://github.com/chenph/QMailMaster/releases"));
+    QDesktopServices::openUrl(QUrl("https://github.com/chenph-dev/next-kmail/releases"));
 }
 
 /* ************************************************************************** */

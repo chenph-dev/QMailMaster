@@ -1,6 +1,6 @@
 #include "winver.h"
 
-IDI_ICON1 ICON "QMailMaster.ico"
+IDI_ICON1 ICON "next-kmail.ico"
 
 VS_VERSION_INFO VERSIONINFO
  FILEVERSION 1,0,0,0
@@ -15,13 +15,13 @@ BEGIN
     BEGIN
         BLOCK "000004b0"
         BEGIN
-            VALUE "CompanyName", "QMailMaster"
-            VALUE "FileDescription", "QMailMaster"
+            VALUE "CompanyName", "Next KMail"
+            VALUE "FileDescription", "Next KMail"
             VALUE "FileVersion", "1.0.0.0"
-            VALUE "LegalCopyright", "Copyright (C) 2026 QMailMaster"
-            VALUE "InternalName", "QMailMaster"
-            VALUE "OriginalFilename", "QMailMaster.exe"
-            VALUE "ProductName", "QMailMaster"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Next KMail"
+            VALUE "InternalName", "next-kmail"
+            VALUE "OriginalFilename", "next-kmail.exe"
+            VALUE "ProductName", "Next KMail"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

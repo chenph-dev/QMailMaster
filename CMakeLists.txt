@@ -34,6 +34,9 @@ message(STATUS "[PROJECT] CMAKE_CURRENT_SOURCE_DIR  = ${CMAKE_CURRENT_SOURCE_DIR
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Svg Qml Quick QuickControls2)
 find_package(Qt6 REQUIRED COMPONENTS LinguistTools)
 
+# VMime (email protocol library)
+find_package(VMime REQUIRED)
+
 qt_standard_project_setup(REQUIRES 6.8
                           I18N_SOURCE_LANGUAGE en
                           I18N_TRANSLATED_LANGUAGES fr)
@@ -113,6 +116,11 @@ qt_add_qml_module(${PROJECT_NAME}
     SOURCES
         src/SettingsManager.cpp src/SettingsManager.h
         src/MenubarManager.cpp src/MenubarManager.h
+        src/email/EmailAccount.cpp src/email/EmailAccount.h
+        src/email/EmailMessage.cpp src/email/EmailMessage.h
+        src/email/ImapClient.cpp src/email/ImapClient.h
+        src/email/SmtpClient.cpp src/email/SmtpClient.h
+        src/email/EmailManager.cpp src/email/EmailManager.h
 )
 
 qt_add_translations(${PROJECT_NAME}
@@ -171,6 +179,9 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt6::Quick
     Qt6::QuickControls2
 )
+
+# VMime library
+target_link_libraries(${PROJECT_NAME} PRIVATE vmime)
 
 target_include_directories(${PROJECT_NAME} PRIVATE src/)
 target_include_directories(${PROJECT_NAME} PRIVATE thirdparty/)

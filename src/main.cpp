@@ -1,6 +1,7 @@
 
 #include "SettingsManager.h"
 #include "MenubarManager.h"
+#include "email/EmailManager.h"
 
 #include <utils_app.h>
 #include <utils_screen.h>
@@ -84,6 +85,10 @@ int main(int argc, char *argv[])
     //QQuickStyle::setStyle("Universal");
 
     QQmlApplicationEngine engine;
+
+    // 注册邮件管理器到 QML 上下文
+    EmailManager *emailManager = new EmailManager(&engine);
+    engine.rootContext()->setContextProperty("emailManager", emailManager);
 
     //qDebug() << engine.importPathList();
     //QDirIterator qrc(":", QDirIterator::Subdirectories);
